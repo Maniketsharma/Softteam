@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "838129492217",
+    "project_id": "softteam-88b9b",
+    "storage_bucket": "softteam-88b9b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:838129492217:android:7f882eebe2816425b84228",
+        "android_client_info": {
+          "package_name": "com.example.softteam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAy1pOkJEvGgz4ZugrN29HL6LlhBKl-t8Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

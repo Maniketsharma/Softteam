@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".data.chat"
+    android:background="#FFFFFFFF">
+<RelativeLayout
+  android:id="@+id/topbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+  <ImageView
+      android:id="@+id/backline"
+      android:layout_width="23dp"
+      android:layout_height="36dp"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentBottom="true"
+      android:layout_marginStart="8dp"
+      android:layout_marginTop="-1dp"
+      android:layout_marginEnd="11dp"
+      android:layout_marginBottom="878dp"
+      android:layout_toStartOf="@+id/profilePic"
+      android:background="@drawable/round"
+      android:backgroundTint="#FFFFFF"
+      android:paddingStart="12sp"
+      android:paddingEnd="2dp"
+      android:src="@drawable/backline"
+      android:contentDescription="@string/to" />
+
+  <ImageView
+      android:id="@+id/profilePic"
+      android:layout_width="47dp"
+      android:layout_height="43dp"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentBottom="true"
+      android:layout_marginTop="1dp"
+      android:layout_marginEnd="322dp"
+      android:layout_marginBottom="870dp"
+      android:src="@drawable/user" />
+
+  <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/profilePic"
+        />
+<androidx.recyclerview.widget.RecyclerView
+    android:layout_below="@+id/topbar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/chattingRecycler"
+    android:layout_above="@+id/bottomBar"/>
+  <RelativeLayout
+      android:id="@+id/bottomBar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@color/theme_color_8"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+  />
+  <EditText
+      android:id="@+id/messageEditText"
+      android:layout_width="290dp"
+      android:layout_height="64dp"
+      android:layout_alignParentBottom="true"
+      android:layout_marginStart="20dp"
+      android:layout_marginEnd="11dp"
+      android:layout_marginBottom="33dp"
+      android:layout_toStartOf="@+id/sentbtn"
+      android:background="@android:color/transparent"
+      android:hint="Start here..."
+      android:textSize="14sp" />
+
+  <ImageView
+      android:id="@+id/sentbtn"
+      android:layout_width="60dp"
+      android:layout_height="60dp"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentBottom="true"
+      android:layout_marginEnd="11dp"
+      android:layout_marginBottom="41dp"
+      android:background="#124DFF"
+      android:src="@drawable/share"
+      tools:ignore="UnknownId" />
+
+  <TextView
+      android:id="@+id/textView2"
+      android:layout_width="56dp"
+      android:layout_height="wrap_content"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentBottom="true"
+      android:layout_marginTop="2dp"
+      android:layout_marginEnd="238dp"
+      android:layout_marginBottom="863dp"
+      android:text="Online"
+      android:textColor="#00C853"
+      android:textSize="12sp" />
+
+  <TextView
+      android:id="@+id/user"
+      android:layout_width="97dp"
+      android:layout_height="wrap_content"
+      android:layout_alignStart="@+id/profilePic"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentEnd="true"
+      android:layout_marginStart="56dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginEnd="215dp"
+      android:maxLines="1"
+      android:text="User Name"
+      android:textColor="#424242"
+      android:textSize="14sp"
+      android:textStyle="bold" />
+
+</RelativeLayout>
