@@ -1,0 +1,3 @@
+com.example.softteam.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

@@ -1,0 +1,6 @@
+com.example.softteam.test.app-annotation-experimental-1.3.0-0 C:\Users\hp\AndroidStudioProjects\demo\.gradle\gradle-8.5-bin\gradle-8.5-bin\gradle-8.5\caches\transforms-3\c5550a0cc9941dd7d03c74c0ae2c0666\transformed\annotation-experimental-1.3.0\res
+com.example.softteam.test.app-core-1.5.0-1 C:\Users\hp\AndroidStudioProjects\demo\.gradle\gradle-8.5-bin\gradle-8.5-bin\gradle-8.5\caches\transforms-3\e4bef87dfc585d9020b4afa0c0422d5e\transformed\core-1.5.0\res
+com.example.softteam.test.app-androidTest-2 E:\Softteam\app\build\generated\res\resValues\androidTest\debug
+com.example.softteam.test.app-mergeDebugAndroidTestResources-3 E:\Softteam\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.softteam.test.app-mergeDebugAndroidTestResources-4 E:\Softteam\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.softteam.test.app-merged_res-5 E:\Softteam\app\build\intermediates\merged_res\debugAndroidTest
