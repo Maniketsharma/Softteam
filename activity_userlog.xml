@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#316F7173"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/are_you_sure_you_want_to_logout"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        tools:text="Log out account" />
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/round"
+        android:backgroundTint="#1565C0"
+        android:text="@string/logout"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+</LinearLayout>

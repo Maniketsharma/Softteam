@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="61dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/searchIcon"
+            android:layout_width="49dp"
+            android:layout_height="39dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="4dp"
+            android:background="@drawable/status"
+            android:src="@drawable/search" />
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="246dp"
+            android:layout_height="45dp"
+            android:layout_centerInParent="true"
+            android:text="@string/team_chat_box"
+            android:textColor="#1565C0"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="RelativeOverlap"
+            tools:text="MySoftTeam ChatBox" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/userprofile"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/user"
+            app:civ_border_color="#FFFFFF"
+            app:civ_border_width="2dp"
+            app:civ_circle_background_color="#FF000000"
+            tools:ignore="MissingClass" />
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/messageRecycleView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#EEEEF3EA"
+        android:textAlignment="center"
+        tools:ignore="InefficientWeight" />
+
+
+</LinearLayout>

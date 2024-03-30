@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:id="@+id/openlayout"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="5dp"
+            tools:ignore="UselessLeaf"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/chatopomsg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mymsg"
+                android:padding="20dp"
+                android:text="@string/this_is_your_message"
+                android:textColor="#ffff" />
+            <TextView
+                android:id="@+id/oppomsgtm"
+                android:layout_gravity="end"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="28dp"
+                android:text="@string/_3_26_2024_11_40"
+                tools:ignore="RtlSymmetry" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mylayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="100dp"
+            tools:ignore="UselessLeaf"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/mymsg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mymsg"
+                android:backgroundTint="#45FFFFFF"
+                android:padding="20dp"
+                android:text="@string/this_is_your_message"
+                android:textColor="#BC2C2B2B" />
+            <TextView
+                android:id="@+id/mymsgtm"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="28dp"
+                android:text="@string/_3_26_2024_11_40"
+                tools:ignore="RtlSymmetry" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
